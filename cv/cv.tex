@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{ebgaramond} % Use the EB Garamond font
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage[document]{ragged2e}
+
+
+\name{Emanuel Angelim} % Your name to appear at the top
+\linkedin{emanuel36}
+\email{emanuel.tiec@gmail.com}
+\phone{+55 92 98511-5399}
+\city{Manaus, Brazil}
+
+
+\begin{document}
+	
+\begin{rSection}{Professional profile}
+\justifying
+I am a 26 years old engineer with more than 3 years of experience, who like working with embedded systems, specially in communication protocols. I've been working in global software development teams using agile methodologies, shipping many products with high sales statistics and worldwide reach, directly impacting up to 100 million end users. %Currently, I'm looking for a good opportunity to start my career outside of Brazil.
+	
+%I am an highly motivated engineer with 3 years experience who loves working with embedded systems, specially in projects involving communication protocols (WiFi, Bluetooth, Zigbee, Lora, I2C, SPI etc.). Currently I'm excited to start my career outside of Brazil, my main target is US but I'm considering other countries that use English at least as secondary language. I case of moving abroad, I would need visa sponsorship and relocation assistance.
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+	\begin{rSubsection}{\href{https://www.sidi.org.br/en/sobre-nos}{SiDi - Allocated to Samsung}}{Oct 2022 - Present}{Embedded Security Engineer}{Manaus, Brazil}
+		\item Technical reference of Samsung Brazil security team, responsible for coordinating the team effort in the tasks;	
+		\item Provided technical leadership during the bring up process of very new resource Android Virtualization Framework (AVF), defining priorities and supporting less experienced engineers in their tasks;
+		\item Served as the primary point of contact between Samsung Global and Google's virtualization team during the AVF bring up for S23 and S24 smartphones;
+		\item Designed a shell script to automate the process of build flashing and set Smartphone settings to prepare it for testing procedures, replacing the manual process that resulted in significant time savings for the entire team;
+		\item Implemented debug features for secure applications running on ARM Trusted Execution Environment.	
+		%\item Provided research in security related modules of Android OS in order to find security vulnerabilities and develop PoCs;
+		%\item Presentations of team results and ongoing work for company headquarters.
+		\vspace{0.2cm} \\\textbf{Skills:} \textit{Android Virtualization Framework, Trusted Execution Environment, Snapdragon chipsets, and scripting.}
+	\end{rSubsection}
+
+	\begin{rSubsection}{\href{https://www.eldorado.org.br/en/o-eldorado}{Instituto de Pesquisas Eldorado - Allocated to Motorola}}{Jun/2020 - Oct/2022}{Embedded Software Engineer}{Manaus, Brazil}
+		%\item Focal point of contact for critical issues of the Brazil GPS team, which makes up a global team that provides Android OS upgrades for 20 million Motorola and Lenovo smartphones customers;
+	    \item Worked on Android OS bring-up and stabilization focused on Wi-Fi and GPS;
+		\item Provided technical leadership for the Brazil GPS team in several shipped mobile devices;
+		\item Maintained Wi-Fi and GPS core functions during software upgrades, working across C/C++ HAL/kernel/drivers layers up to the Java framework layer;
+		\item Solved several Wi-Fi issues, focused mostly on data throughput, by handling TCP and RF parameters;
+		\item Supported the software bring-up and integration of hardware solutions from multiple third-party chipset vendors, requesting and integrating software changes focused on bug fix.
+		%\item Implemented and maintained an Flutter based mobile application capable of measuring the location based system stability and GPS performance, following the new tests requirements and global team necessity.
+		\vspace{0.2cm}
+		\\\textbf{Skills:} \textit{Software versioning, Bug Analyses, Wi-Fi, GPS, Bluetooth, Qualcomm WCN SoCs, iPerf and Wireshark.}
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	
+	%\textbf{Universidade Federal do Ceará} \hfill {\em Feb/2020 - Jun/2020} 
+	%\\Masters Degree in Electrical Engineering (Unfinished)
+	%\\Research: IoT and embedded systems
+	
+	\textbf{Universidade Federal do Ceará} \hfill {\em Mar/2015 - Dez/2019}
+	\\ Bachelor's degree in Computer Engineering
+	\\ \href{https://github.com/emanuel36/LoRa-sensor-node-device}{Thesis: A low cost and low power LoRa device sensor-node for field applications \hspace{0.5pt} \faGithub}
+	
+\end{rSection}
+
+\begin{rSection}{Complementary training}
+	\begin{multicols}{5}
+    	{\bf Wi-Fi foundations} 
+		\\How Wireless Works
+		\\Date: Jul/2020
+		\\Course load: 40h
+		
+		{\bf Python Scripting}
+		\\Coursera
+		\\Date: Apr/2023
+		\\Course load: 120h
+		
+		{\bf Embedded Android}
+		\\Embedded Labworks
+		\\Date: Dez/2021
+		\\Course load: 24h
+		
+		{\bf Secure Coding}
+		\\Coursera
+		\\Date: Nov/2022
+		\\Course load: 20h
+		
+		{\bf Advanced English}
+		\\EF English Live
+		\\Date: Jun/2019
+		\\Course load: 164h
+	\end{multicols}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\iffalse
+\begin{rSection}{Technical Strengths}
+	
+	\begin{multicols}{3}
+		\begin{itemize}
+			\item Software version control
+			\item Issue debug and bug fix
+			\item Scrum agile methodology
+			\item Technical documentation
+			\item Secure coding
+			
+			\item Wireless technologies
+			\item Positioning systems
+			\item Mobile devices
+			\item Android OS architecture
+			\item Python and shell scripting
+			
+			\item Remote tools
+			\item Jira
+			\item Jenkins
+			\item Build systems
+			\item Bench instruments
+		
+		\end{itemize}
+	\end{multicols}
+
+\end{rSection}
+\fi
+
+\begin{rSection}{Personal Profile}
+\justifying
+I would describe myself as a friendly, calm and strategist person, also, I like to receive feedback and suggestions. I am a big sports fan, usually, I spend my after work time watching or playing sports, mostly football, running and gym. One of my personal goals is to visit countries around the world to know new cultures, foods and enjoy traveling experiences.
+	
+\end{rSection}
+
+\end{document}
